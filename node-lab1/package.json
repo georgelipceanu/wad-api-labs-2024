@@ -4,7 +4,7 @@
   "description": "node lab 1",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node node-lab1/index.js",
+    "start": "babel-node index.js",
     "dev": "nodemon --exec npm start"
   },
   "author": "georgelipceanu",
@@ -17,6 +17,7 @@
     "nodemon": "^3.1.7"
   },
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
   }
 }
